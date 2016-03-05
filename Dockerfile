@@ -29,27 +29,27 @@ RUN apt-get update -y && \
 
 # Installing OpenDaVINCI dependencies.
 RUN apt-get -y --no-install-recommends && \
-    ant \                       # odDataStructureGenerator
-    build-essential \           # libopendavinci
-    cmake \                     # libopendavinci
-    default-jre \               # odDataStructureGenerator
-    default-jdk \               # odDataStructureGenerator
-    freeglut3 \                 # libopendlv
-    freeglut3-dev \             # libopendlv
-    git \                       # libopendavinci
-    libboost-dev \              # libopendlv
-    libopencv-dev \             # libopendlv
-    libopencv-core-dev \        # libopendlv
-    libopencv-highgui-dev \     # libopendlv
-    libopencv-imgproc-dev \     # libopendlv
-    libqt4-dev \                # odcockpit
-    libqt4-opengl-dev \         # odcockpit
-    libqwt5-qt4-dev \           # odcockpit
-    libqwt5-qt4 \               # odcockpit
-    qt4-dev-tools \             # odcockpit
-    rpm \                       # libopendavinci
-    psmisc \                    # compileTest.sh
-    wget                        # Updating sources.list
+    ant \
+    build-essential \
+    cmake \
+    default-jre \
+    default-jdk \
+    freeglut3 \
+    freeglut3-dev \
+    git \
+    libboost-dev \
+    libopencv-dev \
+    libopencv-core-dev \
+    libopencv-highgui-dev \
+    libopencv-imgproc-dev \
+    libqt4-dev \
+    libqt4-opengl-dev \
+    libqwt5-qt4-dev \
+    libqwt5-qt4 \
+    qt4-dev-tools \
+    rpm \
+    psmisc \
+    wget
 
 # Clean-up downloaded packages.
 RUN apt-get clean && \
