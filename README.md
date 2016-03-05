@@ -1,1 +1,1 @@
-# opendavinci-ubuntu-14.04
+# Dockerfile for OpenDaVINCI on Ubuntu 14.04
