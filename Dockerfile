@@ -28,7 +28,7 @@ RUN apt-get update -y && \
     apt-get dist-upgrade -y
 
 # Installing OpenDaVINCI dependencies.
-RUN apt-get -y --no-install-recommends && \
+RUN apt-get install -y --no-install-recommends && \
     ant \
     build-essential \
     cmake \
