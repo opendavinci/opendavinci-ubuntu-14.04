@@ -15,7 +15,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
-# Date: 2016-03-05
+# Date: 2016-08-11
 
 FROM ubuntu:14.04
 MAINTAINER Christian Berger "christian.berger@gu.se"
@@ -42,6 +42,7 @@ RUN apt-get install -y --no-install-recommends \
     libopencv-core-dev \
     libopencv-highgui-dev \
     libopencv-imgproc-dev \
+    libpopt-dev \
     libqt4-dev \
     libqt4-opengl-dev \
     libqwt5-qt4-dev \
