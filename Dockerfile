@@ -56,3 +56,4 @@ RUN apt-get install -y --no-install-recommends \
 RUN apt-get clean && \
     apt-get autoremove
 
+RUN apt-get install -y --no-install-recommends libfuse-dev
